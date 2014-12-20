@@ -1,0 +1,12 @@
+f:\projects\edufix\src\edufix\utilities\UniversitySearcher.java
+f:\projects\edufix\src\edufix\utilities\UniversityIndexer.java
+f:\projects\edufix\src\edufix\utilities\URLMappings.java
+f:\projects\edufix\src\edufix\service\IEdufixManager.java
+f:\projects\edufix\src\edufix\controllers\SearchController.java
+f:\projects\edufix\src\edufix\dao\IEduFixDao.java
+f:\projects\edufix\src\edufix\service\EduFixManager.java
+f:\projects\edufix\src\edufix\beans\SearchCriteria.java
+f:\projects\edufix\src\edufix\dao\EduFixDao.java
+f:\projects\edufix\src\edufix\beans\University.java
+f:\projects\edufix\src\edufix\utilities\EmptyExistingDirectory.java
+f:\projects\edufix\src\edufix\utilities\IndexCronScheduler.java
