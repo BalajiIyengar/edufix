@@ -53,7 +53,8 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>edufix</servlet-name>
-     <url-pattern>*.do</url-pattern>
+  <!--    <url-pattern>*.do</url-pattern> -->
+        <url-pattern>*.json</url-pattern>
       <url-pattern>/service/*</url-pattern>
        <url-pattern>/m/service/*</url-pattern>
         <url-pattern>/t/service/*</url-pattern>
