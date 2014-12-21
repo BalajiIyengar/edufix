@@ -19,7 +19,6 @@ public class EmptyExistingDirectory {
     	if(!directory.exists()){
  
            System.out.println("Directory does not exist.");
-           System.exit(0);
  
         }else{
  
@@ -32,7 +31,7 @@ public class EmptyExistingDirectory {
            }
         }
  
-    	System.out.println("Done");
+    	System.out.println("Deletion Successfully Completed");
     }
  
     public static void delete(File file)
@@ -44,7 +43,7 @@ public class EmptyExistingDirectory {
     		if(file.list().length==0){
  
     		   file.delete();
-    		   System.out.println("Directory is deleted : "  + file.getAbsolutePath());
+    		   System.out.println(file.getAbsolutePath()+" Directory deleted" );
  
     		}else{
  
@@ -62,14 +61,14 @@ public class EmptyExistingDirectory {
         	   //check the directory again, if empty then delete it
         	   if(file.list().length==0){
            	     file.delete();
-        	     System.out.println("Directory is deleted : "   + file.getAbsolutePath());
+        	     System.out.println(file.getAbsolutePath()+" Directory deleted ");
         	   }
     		}
  
     	}else{
     		//if file, then delete it
     		file.delete();
-    		System.out.println("File is deleted : " + file.getAbsolutePath());
+    		System.out.println(file.getAbsolutePath()+" File deleted" );
     	}
     }
 

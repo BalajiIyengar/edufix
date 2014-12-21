@@ -1,6 +1,9 @@
 package edufix.service;
 
+import java.util.List;
+
 import edufix.beans.SearchCriteria;
+import edufix.beans.University;
 import edufix.dao.IEduFixDao;
 
 public class EduFixManager implements IEdufixManager {
@@ -12,6 +15,10 @@ public class EduFixManager implements IEdufixManager {
 		eduFixDao.storeSearchDetails(searchCriteria);
 	}
 
+	@Override
+	public List<University> getUniversities(String universityIds) {
+		return eduFixDao.getUniversities(universityIds);
+	}
 	
 	
 	public IEduFixDao getEduFixDao() {
@@ -21,6 +28,4 @@ public class EduFixManager implements IEdufixManager {
 	public void setEduFixDao(IEduFixDao eduFixDao) {
 		this.eduFixDao = eduFixDao;
 	}
-
-	
 }
